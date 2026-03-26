@@ -1,40 +1,62 @@
-# Functional Analysis - Casos reales
+# Functional Analysis - Práctica y mejora continua
 
-Repositorio de análisis funcional aplicado a sistemas reales.
+Este repositorio lo uso para practicar y mejorar en análisis funcional aplicado a sistemas reales.
 
-## Enfoque
-Trabajo sobre problemas de negocio reales y su traducción a soluciones técnicas:
-
-- Definición de reglas de negocio
-- Modelado de flujos
-- Identificación de edge cases
-- Validación funcional (testing)
+La idea es trabajar sobre situaciones concretas y llevarlas a definiciones claras, tratando de evitar ambigüedades desde el inicio.
 
 ---
 
-## Casos diarios
+## En qué me enfoco
 
-| Día | Caso | Descripción |
-|-----|------|------------|
-| 01 | Registro de usuarios | Alta con validaciones y errores |
-| 02 | Login | Autenticación y manejo de sesiones |
-| 03 | Recuperación de contraseña | Flujo completo con validaciones |
+Busco desarrollar principalmente:
+
+- Entender bien el problema antes de definir
+- Bajar requerimientos a algo claro y usable
+- Definir reglas de negocio sin dejar grises
+- Pensar qué puede fallar antes de que pase
+- Escribir de forma simple, para que cualquiera lo entienda
+
+No se trata solo de documentar, sino de que lo que quede escrito realmente sirva para construir.
 
 ---
 
-## Estructura de cada caso
+## Qué hay en este repo
 
-Cada caso incluye:
+### Casos diarios
+Voy trabajando funcionalidades puntuales (login, registro, pedidos, etc) para practicar el análisis.
 
-- Problema de negocio
-- Actores
-- Reglas de negocio
-- Flujos principales y alternativos
-- Definición técnica (API / DB)
-- Casos de prueba
+En cada caso intento:
+- entender el problema
+- definir cómo debería funcionar
+- contemplar errores posibles
+- pensar cómo validarlo
+
+### Casos más completos
+También hay ejemplos más grandes donde intento aplicar lo mismo pero a un sistema más amplio.
+
+---
+
+## Cómo están escritos los casos
+
+No sigo una plantilla rígida.
+
+La idea es priorizar que se entienda:
+
+- qué problema se está resolviendo
+- qué decisiones se toman
+- qué situaciones pueden fallar
+- cómo debería responder el sistema
+
+Si alguien de negocio lo puede leer y entender sin explicación extra, voy por buen camino.
 
 ---
 
 ## Objetivo
 
-Construir un repositorio que refleje cómo analizo, defino y valido sistemas, reduciendo ambigüedad y retrabajo.
+Seguir mejorando en análisis funcional y ganar criterio a la hora de definir soluciones claras que después se puedan implementar sin confusión.
+
+---
+
+## Nota
+
+Este repo es parte de mi proceso de aprendizaje, así que los casos van evolucionando con el tiempo.
