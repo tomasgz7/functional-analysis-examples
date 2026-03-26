@@ -1,38 +1,60 @@
-# Functional Analysis - Práctica y mejora continua
+# Functional Analysis - práctica real
 
-Este repositorio lo uso para practicar y mejorar en análisis funcional aplicado a sistemas reales.
+Este repositorio lo uso para ordenar y mejorar cómo hago análisis funcional en base a cosas reales que ya trabajé.
 
-La idea es trabajar sobre situaciones concretas y llevarlas a definiciones claras, tratando de evitar ambigüedades desde el inicio.
-
----
-
-## En qué me enfoco
-
-Busco desarrollar principalmente:
-
-- Entender bien el problema antes de definir
-- Bajar requerimientos a algo claro y usable
-- Definir reglas de negocio sin dejar grises
-- Pensar qué puede fallar antes de que pase
-- Escribir de forma simple, para que cualquiera lo entienda
-
-No se trata solo de documentar, sino de que lo que quede escrito realmente sirva para construir.
+No está pensado como algo teórico ni perfecto, sino como una forma de bajar problemas a algo claro y entendible, tanto para negocio como para desarrollo.
 
 ---
 
-## Qué hay en este repo
+## Por qué hago esto
+
+Trabajé varios años con clientes donde muchas veces no tenían claro lo que necesitaban.
+
+En esos casos mi rol terminaba siendo:
+- entender lo que querían decir (aunque esté mal explicado)
+- ordenar esa información
+- bajarlo a algo que se pueda construir
+
+El problema es que muchas veces eso lo hacía de forma intuitiva, sin dejar evidencia clara.
+
+Este repo es para corregir eso.
+
+---
+
+## En qué me estoy enfocando
+
+Estoy trabajando en mejorar principalmente:
+
+- cómo relevo requerimientos sin dejar ambigüedades
+- cómo explico una solución para que cualquiera la entienda
+- cómo definir reglas de negocio claras
+- cómo anticipar errores antes de que pasen
+- cómo dejar evidencia de lo que estoy pensando
+
+---
+
+## Qué vas a encontrar
 
 ### Casos diarios
-Voy trabajando funcionalidades puntuales (login, registro, pedidos, etc) para practicar el análisis.
+Funcionalidades puntuales (login, registro, pedidos, etc).
 
-En cada caso intento:
+La idea no es hacerlos perfectos, sino practicar:
 - entender el problema
 - definir cómo debería funcionar
-- contemplar errores posibles
-- pensar cómo validarlo
+- pensar qué puede fallar
+- explicarlo de forma simple
 
-### Casos más completos
-También hay ejemplos más grandes donde intento aplicar lo mismo pero a un sistema más amplio.
+---
+
+### Casos reales adaptados
+Algunos casos están basados en proyectos que trabajé:
+
+- sitios web para clientes (ej: logística, empresa)
+- definición de contenido y estructura para clientes sin claridad
+- lógica funcional (ej: selección de butacas)
+- organización de requerimientos con user stories
+
+La idea no es mostrar el resultado final, sino el proceso.
 
 ---
 
@@ -40,23 +62,32 @@ También hay ejemplos más grandes donde intento aplicar lo mismo pero a un sist
 
 No sigo una plantilla rígida.
 
-La idea es priorizar que se entienda:
+Intento escribir como pienso, pero ordenado.
 
-- qué problema se está resolviendo
-- qué decisiones se toman
-- qué situaciones pueden fallar
-- cómo debería responder el sistema
+Si alguien de negocio puede leerlo y entenderlo sin que se lo explique:
+→ está bien
 
-Si alguien de negocio lo puede leer y entender sin explicación extra, voy por buen camino.
+Si no:
+→ hay que reescribirlo
 
 ---
 
-## Objetivo
+## Qué estoy buscando
 
-Seguir mejorando en análisis funcional y ganar criterio a la hora de definir soluciones claras que después se puedan implementar sin confusión.
+No busco hacer documentación “perfecta”.
+
+Busco mejorar en:
+
+- claridad
+- criterio
+- consistencia
+
+y poder pasar de trabajar de forma intuitiva a algo más estructurado.
 
 ---
 
 ## Nota
 
-Este repo es parte de mi proceso de aprendizaje, así que los casos van evolucionando con el tiempo.
+Este repo es parte de mi proceso de crecimiento.
+
+Va a tener errores, cambios y mejoras con el tiempo.
