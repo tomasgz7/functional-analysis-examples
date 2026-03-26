@@ -1,17 +1,40 @@
-# Functional Analysis Examples
+# Functional Analysis - Casos reales
 
-Este repositorio contiene ejemplos reales y concretos de análisis funcional aplicados a proyectos de software.
+Repositorio de análisis funcional aplicado a sistemas reales.
 
-El foco está en:
-- Clarificación de requerimientos de negocio
-- Definición de User Stories y criterios de aceptación
-- Flujos funcionales y validación temprana
-- Prevención de errores y retrabajo por requerimientos poco claros
+## Enfoque
+Trabajo sobre problemas de negocio reales y su traducción a soluciones técnicas:
 
-## Casos incluidos
+- Definición de reglas de negocio
+- Modelado de flujos
+- Identificación de edge cases
+- Validación funcional (testing)
 
-- **Aplicación de Gestión de Stock (prototipo funcional)**  
-  https://gestiondeinventarioapp.netlify.app/
+---
 
-- **PetCare Connect – App Veterinaria (prototipo funcional)**  
-  [Prototipo en Figma](https://www.figma.com/proto/1mgE7qRaSSSbC6SSNVjGUU/PetCare-Connect-%E2%80%93-Figma-Project-048?t=Rf9dns1sg6U8K7Vg-0&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&node-id=89-41&starting-point-node-id=89%3A41)
+## Casos diarios
+
+| Día | Caso | Descripción |
+|-----|------|------------|
+| 01 | Registro de usuarios | Alta con validaciones y errores |
+| 02 | Login | Autenticación y manejo de sesiones |
+| 03 | Recuperación de contraseña | Flujo completo con validaciones |
+
+---
+
+## Estructura de cada caso
+
+Cada caso incluye:
+
+- Problema de negocio
+- Actores
+- Reglas de negocio
+- Flujos principales y alternativos
+- Definición técnica (API / DB)
+- Casos de prueba
+
+---
+
+## Objetivo
+
+Construir un repositorio que refleje cómo analizo, defino y valido sistemas, reduciendo ambigüedad y retrabajo.
